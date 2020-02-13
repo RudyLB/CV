@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h3><u>Contacts</u></h3>
+      <ul>
+        <li><strong>Address:</strong> Belgique</li>
+        <br>
+        <li><strong>Email:</strong> Rudylebris@gmail.com</li>
+        <br/>
+        <li><strong>Phone:</strong> +32686847512</li>
+      </ul>
+
+    <hr size="2" noshade>
+
+    <h4>
+      <p>
+        <em>Contact me</em>
+      </p>
+    </h4>
+      <form action="mailto:Rudylebris@gmail.com" method="post" enctype="text/plain">
+        <!-- This form, once the submission action is done, will open the User Email program (thanks to "Action="mailto:""),
+        with the email address "Rudylebris@gmail.com" already filled in as recipient.
+        The method is not relevant for now.
+        the "enctype" attribute will allow the data, taken from the form, to be displayed in a plain text format-->
+        <label>Name:</label>
+        <input type="text" name="Name" value="">
+        <!--the attribute "name" will be used for some functionnalities, either in HTML or Javascript.
+        The field to be entered for "value", if filled, will displayed something in the user field.
+        The user can overwrite it but as we do not want anything to be pre-filled for the user, it has to stay blank-->
+        <br/>
+        <br/>
+        <label>Email:</label>
+        <input type="email" name="Email" value="">
+        <!--Entering the Attribute "Type="email"" will allow the form to automatically stop the User
+        from entering anything that would not match a classic Email address (@ etc.)-->
+        <br/>
+        <br/>
+        <label>Phone:</label>
+        <input type="Tel" name="PhoneNumber" value="">
+        <br/>
+        <br/>
+        <label>Birth:</label>
+        <input type="date" name"BirthDate">
+        <br/>
+        <br/>
+        <label>Your Message:</label>
+        <br/>
+        <textarea name="YourMessage" rows="5" cols="22"></textarea>
+        <!--"Textarea" is an element by itself ! it is not an attribute to the element "Input".
+        It still require the "Label" putting placed before-->
+        <br/>
+        <br/>
+        <label>Upload a file:</label>
+        <input type="file" name="Uploadedfile" value="">
+        <br />
+        <br />
+        <label><em>I wish to be called back:</em></label>
+        <input type="checkbox" name="checkboxCalledBack" value="">
+        <br/>
+        <br/>
+        <label></label>
+        <!--The "input" cell displayed for the user will already have "Submit" filled in the cell as I entered "Value="Submit"". So no need to have a Label
+        displaying "submit" next to the Submit button that will already have "submit" displayed on itself-->
+        <input type="submit" value="Submit">
+      </form>
+
+
+  </body>
+</html>

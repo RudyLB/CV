@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<!--This Tag describe what version of HTLM we are working on.Here we are working on HTLM 5-->
+<html>
+<!--Will tell the browser how to handle the code, in that case, HTLM -->
+
+<head>
+  <!--Head part is the part holding the info about the webpage -->
+  <meta charset="utf-8">
+  <meta name="description" content="The basics of HTLM.">
+  <!--Meta data gives extra information. Must be included within the "head" section.-->
+  <!--Charset dictates the encoding of characters used. Here, utf-8 is the one used for most known characters.-->
+  <!--The description Meta data will allows the following content to be displayed on the browser, as description, under the title of the webpage-->
+  <!--All Meta codes must follow each others. There should not be anything, comments included, between them.-->
+  <title>Rudy Le Bris Resume</title>
+  <!--This will litteraly be the title of the webpage, displayed in the tab of the browser.-->
+</head>
+
+<body>
+  <!--The body is where everything displayed on the webpage will be. All info there will be displayed-->
+  <table cellspacing="15">
+    <!-- The cellspacing will apply to every Row created within that single Table. You can not create different spacing for the different Row that are included in the same "Table"-->
+    <tr>
+      <td>
+        <img src="Images\Rudy Le Bris - Profile Picture.jpg" alt="Rudy Le Bris">
+        <!--The source could also be the one from a Website. The "alt" is the text that would appear if the picture can not be found on the local folder or on internet-->
+      </td>
+      <td>
+        <h1>Rudy Le Bris</h1>
+        <p>Student in Web Development and Programming</p>
+        <p><em>Reinsurance Analyst looking forward to learn new skills outside of the Industry.</em></p>
+      </td>
+    </tr>
+  </table>
+
+  <hr size="3" noshade/>
+  <hr size="3" noshade/>
+
+  <h3> Educational Background - Courses</h3>
+  <ul>
+    <!-- "ul" is for unorganized list which means no hierarchy between the elements-->
+    <li>Private and European Laws</li>
+    <li>Insurance Law</li>
+    <li>Finance and Accountancy</li>
+  </ul>
+
+  <h3> Educational Background - Schools</h3>
+  <table cellspacing="1">
+    <thead>
+      <!--The table Head allows you to give proper title to each column. Each "TD" entry in the Body section will reauire a correspondant "TD" entry in the Head Section of "Table"-->
+      <!-- If you do not put "Thead", the Browser will assume everything
+      is supposed to go into "Tbody". Additionally, entering "Tbody"
+      is not mandatory. Even without, the broswer will know what to do-->
+      <Tr>
+        <td>
+          <strong>Dates</strong>
+        </td>
+        <td><strong>Schools</strong></td>
+      </Tr>
+    </thead>
+    <!--Now that we have titles to our future two columns, time to create the rows and as such, we entire the "body" section of the table-->
+    <tbody>
+      <!-- Even if there is no proper entry of "<Tbody>, the browser will know how to handle the data entered. But I prefer to put it for clarity-->
+      <tr>
+        <!--Table Row: to create the first entire row which will contain individual data, each data represented here by each "TD" which stands for "table Data"-->
+        <td><strong>2013-2014</strong></td>
+        <td>Cardiff University - Wales (U.K)</td>
+        <!--Now it is time to close the first row with "</tr>"-->
+      </tr>
+      <tr>
+        <td><strong>2010-2014</strong></td>
+        <td>Nantes Law School - Nantes (France)</td>
+      </tr>
+      <tr>
+        <td><strong>2008-2010</strong></td>
+        <td>University institute of Technology - Nantes (France)</td>
+      </tr>
+    </tbody>
+    <!--Now it is time to close the last row with "</tr>"-->
+    <!--And also time to close the body of the Table-->
+    <!--And also time to close the entire Table &#9673-->
+  </table>
+  <br/>
+
+  <hr size="3" noshade />
+
+  <h3>Skills</h3>
+  <!-- Two tables within a table. The "TR" of the first main table will then have two "TD", each of them will be a table-->
+  <!-- This is a Nested Table-->
+    <table border="3">
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <td> Finance </td>
+              <td>&#9673;&#9673;&#9673;&#9673;&#9673;</td>
+            </tr>
+            <tr>
+              <td>Reinsurance</td>
+              <td>&#9673;&#9673;&#9673;&#9673;&#9673;</td>
+            </tr>
+            <tr>
+              <td>Laws</td>
+              <td>&#9673;&#9673;&#9673;&#9673;&#9673;</td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>English</td>
+              <td>&#9673;&#9673;&#9673;&#9673;&#9673;</td>
+            </tr>
+            <tr>
+              <td>French</td>
+              <td>&#9673;&#9673;&#9673;&#9673;&#9673;</td>
+            </tr>
+            <tr>
+              <td>Analyitical skills</td>
+              <td>&#9673;&#9673;&#9673;&#9673;&#9673;</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+
+  <br />
+  <hr size="3" noshade />
+
+  <H3>Professional Experiences</H3>
+    <table cellspacing="5">
+      <tr>
+        <td>Jan.2018 - </td>
+        <td><strong>American Insurance Group -</strong></td>
+        <td><em>Reinsurance Analyst</em></td>
+      </tr>
+      <tr>
+        <td>Apr.17 - Dec.18 - </td>
+        <td><strong>Touring Insurances -</strong></td>
+        <td><em>Policy Processing Clerk</em></td>
+      </tr>
+      <tr>
+        <td>Mar.16 - Aug.16 - </td>
+        <td><strong>AXA Insurance France -</strong></td>
+        <td><em>Bodily Injuries Clains handler</em></td>
+      </tr>
+      <tr>
+        <td>Nov.15 - Feb.16 - </td>
+        <td><strong>Henner Insurance -</strong></td>
+        <td><em>Policy Processing Clerk</em></td>
+      </tr>
+      <tr>
+        <td>Apr.15 - Jun. 15 - </td>
+        <td><strong>Bollore Logistics -</strong></td>
+        <td><em>Transport and Insurance Jurist</em></td>
+      </tr>
+      <tr>
+        <td>Jul.13 - Aug.13 - </td>
+        <td><strong>BNP Paribas -</strong></td>
+        <td><em>Debt Collector</em></td>
+      </tr>
+      <tr>
+        <td>Mai.13 - Jun.13 - </td>
+        <td><strong>Societe Generale -</strong></td>
+        <td><em>Management Control Internship</em></td>
+      </tr>
+    </table>
+
+    <br>
+    <hr size="3" noshade>
+
+  <h3>Hobbies</h3>
+  <ul>
+    <li><a href="https://www.udemy.com"><strong>Learning new skills and languages</strong></a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Video_game"><strong>Video Games</strong></a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Science_fiction"><strong>Science-Fiction</strong></a></li>
+  </ul>
+
+  <hr size="3" noshade>
+
+  <a href="C:\Users\Resl\Documents\Web development\HTML - Personal Site\Experiences.html"><h3>Working Experiences References</H3></a>
+  <!-- Hyperlink leading to another page of the Website. The Link text is here also affected by the "heading" qualifications-->
+
+  <hr size="3" noshade>
+
+  <a href="C:\Users\Resl\Documents\Web development\HTML - Personal Site\Contact me.html">
+    <h3>Contacts</h3>
+  </a>
+
+</body>
+
+</html>
